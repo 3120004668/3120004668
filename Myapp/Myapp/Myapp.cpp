@@ -147,7 +147,6 @@ int main(int argc, char* argv[])
 						wrnum++;
 					}
 				}
-				i++;
 			}
 			else if (GetAmountSign(exp) == 2) {
 				Arithmetic2 exp1(exp);
@@ -174,7 +173,6 @@ int main(int argc, char* argv[])
 						wrnum++;
 					}
 				}
-				i++;
 			}
 			else if (GetAmountSign(exp) == 3) {
 				Arithmetic3 exp1(exp);
@@ -201,8 +199,8 @@ int main(int argc, char* argv[])
 						wrnum++;
 					}
 				}
-				i++;
 			}
+			i++;
 		}
 		ofstream ofs;
 		ofs.open("Grade.txt");
